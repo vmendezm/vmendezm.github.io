@@ -54,7 +54,7 @@ order: 2
   </div>
 
   <div>
-    <h3>Modelos 3D</h3>
+    <h3>{{ "Modelos 3D" | center }}</h3>
     <div>
       <p> 
         
@@ -72,15 +72,9 @@ order: 2
     </p>
        </div>
  </div>
-<p>
-
-</p>
-  <div>
+ <div>
     <h3>Mapas</h3>
-    <p>
-
-    </p>
-    <div>
+   <div>
       {% leaflet_map %}
       {% leaflet_marker { "latitude" : 41.881832,
                        "longitude" : -87.623177,
